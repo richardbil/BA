@@ -17,7 +17,7 @@ AvgOrderConjugate := function(n)
 #then we print it to the terminal, to the file and to the ergebnisse list, which we print too
 
     for i in [3..n] do
-        G := PSL( [filt, ]2, i );
+        G := SymmetricGroup(i);
         summe := Sum(ConjugacyClasses(G), cl -> Size(cl) * Order(Representative(cl)));
         E1 := (summe - 1) / (Order(G) - 1);
         E2 := (summe - 1.0) / (Order(G) - 1.0);  
