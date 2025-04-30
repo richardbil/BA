@@ -1,4 +1,4 @@
-AvgOrder := function(n)
+ModifiedAvgOrder := function(n)
     local i, G, summe, E1, E2, ergebnisse, file_res;
 
     ergebnisse := [];
