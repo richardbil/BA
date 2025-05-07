@@ -2,13 +2,13 @@
 # the function takes two arguments: m = number of primes, n = exponent limit per prime
 
 ModavgCyclicPrimePowers := function(m, n)
-    local primes, p, i, G, summe, E1, E2, ergebnisse, file_res;
+    local primes, p, i, G, g, summe, E1, E2, ergebnisse, file_res;
 
     # initialize an empty list to store the results
     ergebnisse := [];
 
     # produce a file we can analyze with Python
-    file_res := OutputTextFile("cyclic_prime_power_results.txt", false);
+    file_res := OutputTextFile("results_normal_cpi.txt", false);
     WriteLine(file_res, "GroupName, GroupOrder, E(G)value, E(G)value_decimal");
 
     # generate the first m primes
@@ -19,11 +19,11 @@ ModavgCyclicPrimePowers := function(m, n)
         p := NextPrimeInt(p + 1);
     od;
 
-    # for each prime p and exponent i = 1..n, build C_{p^i} and compute E(G)
+    # since every element in a cyclic group has its own conjugacy class, we dont need to produce members of conjugacy classes
     for p in primes do
         for i in [1..n] do
             G := CyclicGroup(p^i);
-            summe := Sum(ConjugacyClasses(G), cl -> Size(cl) * Order(Representative(cl)));
+            summe := Sum(Elements(G), g -> Order(g));
             E1 := (summe - 1) / (Order(G) - 1);
             E2 := (summe - 1.0) / (Order(G) - 1.0);
 

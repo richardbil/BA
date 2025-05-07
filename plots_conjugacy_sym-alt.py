@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #get the data
-df = pd.read_csv("alt_Sym_conjugacy_results.txt")
+df = pd.read_csv("results_conjugacy_sym-alt.txt")
 #spaces, i added in the header of  resultfile of avgorder_conjugacy.g are a problem for python to read 
 #so this line strips the dataframe of whitespace 
 df.columns = df.columns.str.strip()

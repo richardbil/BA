@@ -10,7 +10,7 @@ ModifiedAvgOrderConjugate := function(n)
 
 #produce a file we can analyze with python to plot etc. with n and the values 
 
-    file_res := OutputTextFile("alt_Sym_conjugacy_results.txt", false); 
+    file_res := OutputTextFile("results_conjugacy_sym-alt.txt", false); 
     WriteLine(file_res, "GroupName, GroupOrder, E(G)value, E(G)value_decimal");
 
 #for every S(i) for i <= n we call the symmetric group and build a sum over every order of #conjugacy class times the order of the elements of that class, and than we produce the E(G) value #in normal and decimal

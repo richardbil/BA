@@ -10,7 +10,7 @@ ModavgPSLqi := function(m, n)
 
     # produce a file we can analyze with Python to plot etc., with group parameters and the computed values
 
-    file_res := OutputTextFile("pslqi_conjugacy_results.txt", false);
+    file_res := OutputTextFile("results_conjugacy_pslqi.txt", false);
     WriteLine(file_res, "GroupName, GroupOrder, E(G)value, E(G)value_decimal");
 
     # generate the first m primes

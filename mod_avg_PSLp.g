@@ -8,7 +8,7 @@ ModavgPSL := function(n)
     ergebnisse := [];
 
     # produce a file we can analyze with python to plot etc. with n and the values 
-    file_res := OutputTextFile("pslp_conjugacy_results.txt", false); 
+    file_res := OutputTextFile("results_conjugacy_pslp.txt", false); 
     WriteLine(file_res, "GroupName, GroupOrder, E(G)value, E(G)value_decimal");
 
     # generate the first n primes

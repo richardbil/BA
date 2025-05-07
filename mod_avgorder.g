@@ -3,7 +3,7 @@ ModifiedAvgOrder := function(n)
 
     ergebnisse := [];
 
-    file_res := OutputTextFile("alt_Sym_results.txt", false); 
+    file_res := OutputTextFile("results_slow_sym-alt.txt", false); 
     WriteLine(file_res, "GroupName, GroupOrder, E(G)value, E(G)value_decimal");
 
     for i in [3..n] do
