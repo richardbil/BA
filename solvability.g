@@ -25,7 +25,7 @@ comppsivalue := function(m)
         G := SymmetricGroup(n);
         if Size(G) < maxorder then
             psi := Sum(Elements(G), g -> Order(g));
-            WriteLine(file_out, Concatenation("S_", String(n), ",", String(Size(G)), ",", String(psi)));
+            WriteLine(file_out, Concatenation("S_", String(n), ", ", String(Size(G)), ", ", String(psi)));
         fi;
     od;
 
@@ -33,7 +33,7 @@ comppsivalue := function(m)
         G := AlternatingGroup(n);
         if Size(G) < maxorder then
             psi := Sum(Elements(G), g -> Order(g));
-            WriteLine(file_out, Concatenation("A_", String(n), ",", String(Size(G)), ",", String(psi)));
+            WriteLine(file_out, Concatenation("A_", String(n), ", ", String(Size(G)), ", ", String(psi)));
         fi;
     od;
 
@@ -41,7 +41,7 @@ comppsivalue := function(m)
         G := CyclicGroup(n);
         psi := Sum(Elements(G), g -> Order(g));
         boundary := 211/1617 * psi;
-        WriteLine(file_out, Concatenation("C_", String(n), ",", String(Size(G)), ",", String(boundary)));
+        WriteLine(file_out, Concatenation("C_", String(n), ", ", String(Size(G)), ", ", String(boundary)));
     od;
 
     # generate the first m primes
@@ -56,7 +56,7 @@ comppsivalue := function(m)
         G := GL(2, n);
         if Size(G) < maxorder then
             psi := Sum(Elements(G), g -> Order(g));
-            WriteLine(file_out, Concatenation("GL(2,", String(n),")", ",", String(Size(G)), ",", String(psi)));
+            WriteLine(file_out, Concatenation("GL(2.", String(n),")", ", ", String(Size(G)), ", ", String(psi)));
         fi;
     od;
 
@@ -64,7 +64,7 @@ comppsivalue := function(m)
         G := SL(2, n);
         if Size(G) < maxorder then
             psi := Sum(Elements(G), g -> Order(g));
-            WriteLine(file_out, Concatenation("SL(2,", String(n),")", ",", String(Size(G)), ",", String(psi)));
+            WriteLine(file_out, Concatenation("SL(2.", String(n),")", ", ", String(Size(G)), ", ", String(psi)));
         fi;
     od;
 
@@ -72,7 +72,7 @@ comppsivalue := function(m)
         G := PSL(2, n);
         if Size(G) < maxorder then
             psi := Sum(Elements(G), g -> Order(g));
-            WriteLine(file_out, Concatenation("PSL(2,", String(n),")", ",", String(Size(G)), ",", String(psi)));
+            WriteLine(file_out, Concatenation("PSL(2.", String(n),")", ", ", String(Size(G)), ", ", String(psi)));
         fi;
     od;
 
