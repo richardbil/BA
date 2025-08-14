@@ -1,0 +1,172 @@
+GroupName, GroupOrder, AvgElementOrder, isElemAbel2
+C2, 2, 3/2, true
+C3, 3, 7/3, false
+C4, 4, 11/4, false
+C2 x C2, 4, 7/4, true
+S3, 6, 13/6, false
+C4 x C2, 8, 23/8, false
+D8, 8, 19/8, false
+C2 x C2 x C2, 8, 15/8, true
+C3 x C3, 9, 25/9, false
+D10, 10, 31/10, false
+A4, 12, 31/12, false
+D12, 12, 11/4, false
+(C4 x C2) : C2, 16, 47/16, false
+C4 x C2 x C2, 16, 47/16, false
+C2 x D8, 16, 39/16, false
+(C4 x C2) : C2, 16, 47/16, false
+C2 x C2 x C2 x C2, 16, 31/16, true
+(C3 x C3) : C2, 18, 43/18, false
+S4, 24, 67/24, false
+C2 x C2 x S3, 24, 73/24, false
+(C3 x C3) : C3, 27, 79/27, false
+C3 x C3 x C3, 27, 79/27, false
+C2 x ((C4 x C2) : C2), 32, 95/32, false
+(C2 x C2 x C2 x C2) : C2, 32, 87/32, false
+(C4 x C2 x C2) : C2, 32, 95/32, false
+(C4 x C4) : C2, 32, 87/32, false
+C4 x C2 x C2 x C2, 32, 95/32, false
+C2 x C2 x D8, 32, 79/32, false
+C2 x ((C4 x C2) : C2), 32, 95/32, false
+(C2 x C2 x C2) : (C2 x C2), 32, 87/32, false
+C2 x C2 x C2 x C2 x C2, 32, 63/32, true
+C2 x ((C3 x C3) : C2), 36, 37/12, false
+(C4 x C4) : C3, 48, 151/48, false
+(C2 x C2 x C2 x C2) : C3, 48, 127/48, false
+(C3 x C3 x C3) : C2, 54, 133/54, false
+(C2 x ((C4 x C2) : C2)) : C2, 64, 191/64, false
+(C2 x C2 x D8) : C2, 64, 191/64, false
+((C2 x C2 x C2 x C2) : C2) : C2, 64, 199/64, false
+C2 x C2 x ((C4 x C2) : C2), 64, 191/64, false
+C2 x ((C2 x C2 x C2 x C2) : C2), 64, 175/64, false
+C2 x ((C4 x C2 x C2) : C2), 64, 191/64, false
+C2 x ((C4 x C4) : C2), 64, 175/64, false
+(C2 x C2 x D8) : C2, 64, 191/64, false
+(C2 x ((C4 x C2) : C2)) : C2, 64, 191/64, false
+D8 x D8, 64, 183/64, false
+(C2 x ((C4 x C2) : C2)) : C2, 64, 199/64, false
+(C2 x ((C4 x C2) : C2)) : C2, 64, 199/64, false
+((C4 x C2 x C2) : C2) : C2, 64, 199/64, false
+((C4 x C4) : C2) : C2, 64, 199/64, false
+C4 x C2 x C2 x C2 x C2, 64, 191/64, false
+C2 x C2 x C2 x D8, 64, 159/64, false
+C2 x C2 x ((C4 x C2) : C2), 64, 191/64, false
+C2 x ((C2 x C2 x C2) : (C2 x C2)), 64, 175/64, false
+(C2 x ((C4 x C2) : C2)) : C2, 64, 191/64, false
+C2 x C2 x C2 x C2 x C2 x C2, 64, 127/64, true
+C3 x ((C3 x C3) : C3), 81, 241/81, false
+C3 x C3 x C3 x C3, 81, 241/81, false
+((C2 x C2 x C2 x C2) : C3) : C2, 96, 295/96, false
+C2 x ((C2 x ((C4 x C2) : C2)) : C2), 128, 383/128, false
+C2 x ((C2 x C2 x D8) : C2), 128, 383/128, false
+(C2 x C2 x C2 x D8) : C2, 128, 383/128, false
+(C2 x C2 x C2 x D8) : C2, 128, 399/128, false
+(C2 x C2 x ((C4 x C2) : C2)) : C2, 128, 399/128, false
+(C2 x C2 x C2 x D8) : C2, 128, 383/128, false
+(C4 x (C4 : C4)) : C2, 128, 399/128, false
+(C2 x C2 x C2 x D8) : C2, 128, 399/128, false
+((C4 x C4) : C4) : C2, 128, 399/128, false
+(C2 x ((C4 x C2 x C2) : C2)) : C2, 128, 399/128, false
+(C2 x ((C2 x C2 x C2 x C2) : C2)) : C2, 128, 399/128, false
+(C2 x ((C2 x C2 x C2 x C2) : C2)) : C2, 128, 367/128, false
+(C2 x ((C4 x C4) : C2)) : C2, 128, 367/128, false
+C2 x (((C2 x C2 x C2 x C2) : C2) : C2), 128, 399/128, false
+C2 x C2 x C2 x ((C4 x C2) : C2), 128, 383/128, false
+C2 x C2 x ((C2 x C2 x C2 x C2) : C2), 128, 351/128, false
+C2 x C2 x ((C4 x C2 x C2) : C2), 128, 383/128, false
+C2 x C2 x ((C4 x C4) : C2), 128, 351/128, false
+C2 x ((C2 x C2 x D8) : C2), 128, 383/128, false
+C2 x ((C2 x ((C4 x C2) : C2)) : C2), 128, 383/128, false
+C2 x D8 x D8, 128, 367/128, false
+C2 x ((C2 x ((C4 x C2) : C2)) : C2), 128, 399/128, false
+C2 x ((C2 x ((C4 x C2) : C2)) : C2), 128, 399/128, false
+(C2 x ((C2 x C2 x C2 x C2) : C2)) : C2, 128, 383/128, false
+((C2 x ((C4 x C2) : C2)) : C2) : C2, 128, 399/128, false
+(C2 x ((C4 x C2 x C2) : C2)) : C2, 128, 399/128, false
+((C2 x ((C4 x C2) : C2)) : C2) : C2, 128, 383/128, false
+C2 x (((C4 x C2 x C2) : C2) : C2), 128, 399/128, false
+C2 x (((C4 x C4) : C2) : C2), 128, 399/128, false
+(D8 x D8) : C2, 128, 399/128, false
+(D8 x D8) : C2, 128, 399/128, false
+(D8 x D8) : C2, 128, 399/128, false
+(D8 x D8) : C2, 128, 399/128, false
+C4 x C2 x C2 x C2 x C2 x C2, 128, 383/128, false
+C2 x C2 x C2 x C2 x D8, 128, 319/128, false
+C2 x C2 x C2 x ((C4 x C2) : C2), 128, 383/128, false
+C2 x C2 x ((C2 x C2 x C2) : (C2 x C2)), 128, 351/128, false
+C2 x ((C2 x ((C4 x C2) : C2)) : C2), 128, 383/128, false
+(C2 x ((C2 x C2 x C2) : (C2 x C2))) : C2, 128, 367/128, false
+(C2 x ((C2 x Q8) : C2)) : C2, 128, 399/128, false
+C2 x C2 x C2 x C2 x C2 x C2 x C2, 128, 255/128, true
+(C3 x C3 x C3 x C3) : C2, 162, 403/162, false
+(C4 x C4 x C2 x C2) : C3, 192, 607/192, false
+(((C2 x C2 x C2 x C2) : C2) : C2) : C3, 192, 583/192, false
+(C2 x C2 x C2 x C2 x C2 x C2) : C3, 192, 511/192, false
+(C3 x ((C3 x C3) : C3)) : C3, 243, 727/243, false
+C3 x C3 x ((C3 x C3) : C3), 243, 727/243, false
+(C3 x ((C3 x C3) : C3)) : C3, 243, 727/243, false
+C3 x C3 x C3 x C3 x C3, 243, 727/243, false
+(C2 x ((C2 x ((C4 x C2) : C2)) : C2)) : C2, 256, 767/256, false
+(C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C2, 256, 799/256, false
+(C2 x C2 x ((C4 x C4) : C2)) : C2, 256, 799/256, false
+(C2 x C2 x ((C4 x C4) : C2)) : C2, 256, 799/256, false
+(C2 x C2 x ((C2 x C2 x C2 x C2) : C2)) : C2, 256, 799/256, false
+C2 x C2 x ((C2 x ((C4 x C2) : C2)) : C2), 256, 767/256, false
+C2 x C2 x ((C2 x C2 x D8) : C2), 256, 767/256, false
+C2 x ((C2 x ((C2 x C2 x C2 x C2) : C2)) : C2), 256, 799/256, false
+C2 x ((C2 x ((C4 x C4) : C2)) : C2), 256, 799/256, false
+C2 x ((C2 x ((C2 x C2 x C2 x C2) : C2)) : C2), 256, 767/256, false
+C2 x ((C2 x ((C4 x C2 x C2) : C2)) : C2), 256, 799/256, false
+C2 x ((C2 x ((C2 x C2 x C2 x C2) : C2)) : C2), 256, 799/256, false
+C2 x ((C2 x ((C2 x C2 x C2 x C2) : C2)) : C2), 256, 767/256, false
+C2 x ((C2 x ((C4 x C4) : C2)) : C2), 256, 799/256, false
+((C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C2, 256, 799/256, false
+((C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C2, 256, 799/256, false
+((C2 x ((C4 x C4) : C2)) : C2) : C2, 256, 799/256, false
+((C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C2, 256, 799/256, false
+((C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C2, 256, 799/256, false
+(((C4 x C2 x C2 x C2) : C2) : C2) : C2, 256, 799/256, false
+((C2 x C2 x C2 x C2) : C2) x D8, 256, 783/256, false
+((C4 x C4) : C2) x D8, 256, 783/256, false
+C2 x ((C2 x ((C2 x C2 x C2 x C2) : C2)) : C2), 256, 735/256, false
+C2 x ((C2 x ((C4 x C4) : C2)) : C2), 256, 735/256, false
+C2 x ((C2 x ((C4 x C2 x C2) : C2)) : C2), 256, 799/256, false
+C2 x ((C2 x ((C2 x C2 x C2 x C2) : C2)) : C2), 256, 799/256, false
+(C2 x D8 x D8) : C2, 256, 799/256, false
+(C2 x D8 x D8) : C2, 256, 799/256, false
+C2 x C2 x (((C2 x C2 x C2 x C2) : C2) : C2), 256, 799/256, false
+C2 x C2 x C2 x C2 x ((C4 x C2) : C2), 256, 767/256, false
+C2 x C2 x C2 x ((C2 x C2 x C2 x C2) : C2), 256, 703/256, false
+C2 x C2 x C2 x ((C4 x C2 x C2) : C2), 256, 767/256, false
+C2 x C2 x C2 x ((C4 x C4) : C2), 256, 703/256, false
+C2 x C2 x (((C2 x C2 x C2 x C2) : C2) : C2), 256, 767/256, false
+C2 x C2 x (((C2 x C2 x C2 x C2) : C2) : C2), 256, 767/256, false
+C2 x C2 x (((C4 x C2 x C2) : C2) : C2), 256, 799/256, false
+C2 x C2 x (((C4 x C4) : C2) : C2), 256, 799/256, false
+C2 x C2 x D8 x D8, 256, 735/256, false
+C2 x C2 x ((C2 x C2 x D8) : C2), 256, 799/256, false
+C2 x C2 x ((C2 x ((C4 x C2) : C2)) : C2), 256, 799/256, false
+C2 x ((D8 x D8) : C2), 256, 799/256, false
+C2 x ((D8 x D8) : C2), 256, 799/256, false
+C2 x ((((C2 x C2 x C2 x C2) : C2) : C2) : C2), 256, 799/256, false
+C2 x ((D8 x D8) : C2), 256, 799/256, false
+C2 x ((C2 x ((C2 x C2 x C2 x C2) : C2)) : C2), 256, 767/256, false
+C2 x ((C2 x ((C4 x C2 x C2) : C2)) : C2), 256, 799/256, false
+C2 x ((((C4 x C2 x C2) : C2) : C2) : C2), 256, 799/256, false
+C2 x ((((C4 x C4) : C2) : C2) : C2), 256, 767/256, false
+((D8 x D8) : C2) : C2, 256, 799/256, false
+((((C2 x C2 x C2 x C2) : C2) : C2) : C2) : C2, 256, 799/256, false
+((C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C2, 256, 799/256, false
+((C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C2, 256, 799/256, false
+D8 x ((C2 x C2 x C2) : (C2 x C2)), 256, 783/256, false
+(C2 x D8 x D8) : C2, 256, 799/256, false
+(((C4 x D8) : C2) : C2) : C2, 256, 799/256, false
+C4 x C2 x C2 x C2 x C2 x C2 x C2, 256, 767/256, false
+C2 x C2 x C2 x C2 x C2 x D8, 256, 639/256, false
+C2 x C2 x C2 x C2 x ((C4 x C2) : C2), 256, 767/256, false
+C2 x C2 x C2 x ((C2 x C2 x C2) : (C2 x C2)), 256, 703/256, false
+C2 x C2 x ((C2 x ((C4 x C2) : C2)) : C2), 256, 767/256, false
+C2 x ((C2 x ((C2 x C2 x C2) : (C2 x C2))) : C2), 256, 735/256, false
+C2 x ((C2 x ((C2 x Q8) : C2)) : C2), 256, 799/256, false
+(C2 x ((C2 x ((C4 x C2) : C2)) : C2)) : C2, 256, 767/256, false
+C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2, 256, 511/256, true
