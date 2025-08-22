@@ -15,10 +15,10 @@ plt.scatter(df[df["isElemAbel2"]=="false"]["GroupOrder"],
             color="red", label="Elementary Abelian 2-Group = False")
 
 s4_avg_order = df[df["GroupName"]=="S3"]["AvgElementOrder"].values[0]  # Replace S3 with S4 if present
-plt.axhline(y=s4_avg_order, color="black", linestyle="--", label="S₄ target line")
+plt.axhline(y=s4_avg_order, color="black", linestyle="--", label="S_3 target line")
 
 plt.xlabel("Group Order")
 plt.ylabel("Average Element Order")
-plt.title("Elementary Abelian 2-Groups with S₄ Target")
+plt.title("Elementary Abelian 2-Groups with S_3 Target")
 plt.legend()
 plt.show()
